@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT Vellore - VTOP</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            background-color: rgb(199, 187, 98);
+            font-size: 13px;
+        }
+        .first{
+            background-color: rgb(194, 148, 238);
+        }
+        .second{
+            background-color: rgb(111, 153, 226);
+        }
+    </style>
+</head>
+<body> 
+    <h3>Time Table</h3><br>
+    Semester
+    <form method="post">
+        <select name="Semester">
+        <option value="choose semester">--Choose Semster--</option>
+        <option value="fall22-23" selected>Fall Semester 2022-23</option>
+        <option value="witer21-22">Winter Semster 2021-22</option>
+        <option value="fall21-22">Fall Semester 2021-22</option>
+        <option value="winter20-21">Winter Semester 2020-21</option>
+        <option value="fall20-21">Fall Semester 2020-21</option>
+        </select>
+    </form>
+    <br>
+    <br>
+    <center><table border="1" width="80%" cellspacing="0" >
+            <tr class="first"> <td rowspan="2">Theory</td> <td>Start</td> <td>08:00</td> <td>09:00</td> <td>10:00</td> <td>11:00</td> <td>12:00</td> <td>-</td> <td>Lunch</td> <td>14:00</td> <td>15:00</td> <td>16:00</td> <td>17:00</td> <td>18:00</td> <td>-</td><td>19:00</td> </tr> 
+            <tr class="first"> <td>End</td> <td>08:50</td> <td>09:50</td> <td>10:50</td> <td>11:50</td> <td>12:50</td><td>-</td> <td>Lunch</td> <td>14:50</td> <td>15:50</td> <td>16:50</td> <td>17:50</td> <td>18:50</td> <td>-</td> <td>19:50</td> </tr> 
+            <tr class="second"> <td rowspan="2">Lab</td> <td>Start</td> <td>08:00</td> <td>08:51</td> <td>09:51</td> <td>10:41</td> <td>11:40</td> <td>12:31</td> <td>Lunch</td> <td>14:00</td> <td>14:51</td> <td>15:51</td> <td>16:41</td> <td>17:40</td> <td>18:31</td> <td>-</td></tr> 
+            <tr class="second"><td>End</td> <td>08:50</td> <td>09:40</td> <td>10:40</td> <td>11:30</td> <td>12:30</td> <td>13:20</td> <td>Lunch</td> <td>14:50</td> <td>15:40</td> <td>16:40</td> <td>17:30</td> <td>18:30</td> <td>19:20</td> <td>-</td></tr>
+            <tr> <td rowspan="2">MON</td> <td>THEORY</td> <td>A1-CSE1006-TH-SJT607-ALL</td> <td>F1</td> <td>D1-CSE3001-ETH-SJT702-ALL</td> <td>TB1</td> <td>TG1</td><td>-</td><td>Lunch</td> <td>A2-CSE4019-ETH-SJT514-ALL</td> <td>F2-CSE3501-ETH-SJT602A-ALL</td> <td>D2-STS3201-SS-SJT315-ALL</td> <td>TB2</td> <td>TG2</td> <td>-</td> <td>V3</td> </tr> <tr> <td>LAB</td> <td>L1</td> <td>L2</td> <td>L3</td> <td>L4</td> <td>L5</td> <td>L6</td> <td>Lunch</td> <td>L31</td> <td>L32</td> <td>L33</td> <td>L34</td> <td>L35-CSE3002-ELA-SJT416-ALL</td> <td>L36-CSE3002-ELA-SJT416-ALL</td> <td>-</td> </tr> 
+            <tr> <td rowspan="2">TUE</td> <td>THEORY</td> <td>B1-CSE3002-ETH-SJT208-ALL</td> <td>G1</td> <td>E1</td> <td>TC1</td> <td>TAA1</td> <td>-</td> <td>Lunch</td> <td>B2</td> <td>G2</td> <td>E2</td> <td>	TC2-PHY1901-TH-SJT205-ALL</td> <td>TAA2</td> <td>-</td> <td>V4</td> </tr> <tr> <td>LAB</td> <td>L7</td> <td>L8</td> <td>L9</td> <td>L10</td> <td>L11</td><td>L12</td> <td>Lunch</td> <td>L37</td> <td>L38</td> <td>L39</td> <td>L40</td> <td>L41</td> <td>L42</td> <td>-</td> </tr> 
+            <tr> <td rowspan="2">WED</td> <td>THEORY</td> <td>C1</td> <td>A1-CSE1006-TH-SJT607-ALL</td> <td>F1</td> <td>V1</td> <td>V2</td> <td>-</td> <td>Lunch</td> <td>C2</td> <td>A2-CSE4019-ETH-SJT514-ALL</td> <td>F2-CSE3501-ETH-SJT602A-ALL</td> <td>TD2-STS3201-SS-SJT315-ALL</td> <td>TBB2</td> <td>-</td> <td>V5</td> </tr> <tr> <td>LAB</td> <td>L13</td> <td>L14</td> <td>L15</td> <td>L16</td> <td>L17</td> <td>L18</td> <td>Lunch</td> <td>L43</td> <td>L44</td> <td>L45</td> <td>L46</td> <td>L47</td> <td>L48</td> <td>-</td> </tr> 
+            <tr> <td rowspan="2">THU</td> <td>THEORY</td> <td>D1-CSE3001-ETH-SJT702-ALL</td> <td>B1-CSE3002-ETH-SJT208-ALL</td> <td>G1</td><td>TE1</td> <td>TCC1</td> <td>-</td> <td>Lunch</td> <td>D2-STS3201-SS-SJT315-ALL</td> <td>B2</td> <td>G2</td> <td>TE2</td> <td>TCC2</td> <td>-</td> <td>V6</td> </tr> <tr> <td>LAB</td> <td>L19</td> <td>L20</td> <td>L21</td> <td>L22</td> <td>L23</td> <td>L24</td> <td>Lunch</td> <td>L49</td> <td>L50</td> <td>L51</td> <td>L52</td> <td>L53</td> <td>L54</td> <td>-</td> </tr> 
+            <tr> <td rowspan="2">FRI</td> <td>THEORY</td> <td>E1</td> <td>C1</td> <td>TA1-CSE1006-TH-SJT607-ALL</td> <td>TF1</td> <td>TD1</td> <td>-</td> <td>Lunch</td> <td>E2</td> <td>C2</td> <td>TA2-CSE4019-ETH-SJT514-ALL</td> <td>TF2</td> <td>TDD2</td> <td>-</td> <td>V7</td> </tr> 
+            <tr> <td>LAB</td> <td>L25-CSE3501-ELA-SJT416-ALL</td> <td>L26-CSE3501-ELA-SJT416-ALL</td><td>L27</td> <td>L28</td> <td>L29-CSE3001-ELA-SJT516-ALL</td> <td>L30-CSE3001-ELA-SJT516-ALL</td> <td>Lunch</td> <td>L55</td> <td>L56</td> <td>L57</td> <td>L58</td> <td>L59</td> <td>L60</td> <td>-</td> </tr>
+    </table></center> 
+</body> 
+</html>
